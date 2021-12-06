@@ -1,0 +1,22 @@
+{
+  "name": "test-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14"
+  },
+  "devDependencies": {
+    "chai-http": "^4.3.0",
+    "mocha": "^9.1.3",
+    "should": "^13.2.3"
+  }
+}
